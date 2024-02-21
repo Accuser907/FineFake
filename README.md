@@ -17,6 +17,6 @@ with open(file_name,"rb") as f:
   data_df = pkl.load(f) # data_df is in dataframe 
 ```
 There are 10 columns in pickle file, each attribute and its corresponding meaning is shown in the table below.
-| text | image | entity_id | entity | truth | position | description | image_description | image_wiki_id | image_description | image_entity | title |
+| text | image_path | entity_id | entity | truth | position | description | topic | platform | fine-grained label | metadata | title |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| news body text | image data(binary format) | text-entity wiki id | text-entity name | label | text-entity position | text-entity description | image-entity description | image-entity wiki id | image-entity description | image-entity name | news title |
+| news body text | image_path(relative path) | text-entity wiki id | text-entity name | label | text-entity position | text-entity description | topic from six topics | data affliated websites | fine-grained label | other meta data | news title |
