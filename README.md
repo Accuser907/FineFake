@@ -6,7 +6,7 @@ Follow the instructions to download the dataset. You can download text data, met
 The dataset is divided into six topics and eight platforms: Politics, Entertainment, Business, Health, Society, Conflict. Snopes, Twitter, Reddit, CNN, Apnews, Cdc.gov, Nytimes, Washingtonpost
 Each domain corresponds to a pickle document named by it's affliated domain. The dataset can be downloaded [here](https://drive.google.com/drive/folders/1Pi_wOzDAGXsqJhdWTr0hCarLXmz-oBio?usp=drive_link).
 
-## Pyarrow file
+## DataFrame file
 The data is stored as pickle file, it can be opened to dataframe by following codes.
 ```c
 pip install pickle
