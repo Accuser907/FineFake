@@ -4,7 +4,7 @@ This is the dataset for **FineFake : A Knowledge-Enriched Dataset for Fine-Grain
 # Getting Started
 Follow the instructions to download the dataset. You can download text data, metadata, image data and knowledge data.
 The dataset is divided into six topics and eight platforms: Politics, Entertainment, Business, Health, Society, Conflict. Snopes, Twitter, Reddit, CNN, Apnews, Cdc.gov, Nytimes, Washingtonpost
-Each domain corresponds to a pickle document named by it's affliated domain. The dataset can be downloaded [here](https://drive.google.com/drive/folders/1Pi_wOzDAGXsqJhdWTr0hCarLXmz-oBio?usp=drive_link).
+Each domain corresponds to a pickle document named by it's affliated domain. The dataset can be downloaded [here](https://drive.google.com/drive/folders/1HOjhdaKLnioXmYtursQdRwVEdErZiWUf?usp=drive_link).
 
 ## DataFrame file
 The data is stored as pickle file, it can be opened to dataframe by following codes.
@@ -18,5 +18,5 @@ with open(file_name,"rb") as f:
 ```
 There are 13 columns in pickle file, each attribute and its corresponding meaning is shown in the table below.
 | text | image_path | entity_id | topic | label | fine-grained label | knowledge_embedding | description | relation | platform | author | date | comment |
-| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| news body text | image_path(relative path) | text-entity wiki id | topic from six topics | label | fine-grained label | knowledge_embedding | description | relation | platform | author | date | comment |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| news body text | image_path(relative path) | text-entity wiki id | topic from six topics | label | fine-grained label | knowledge_embedding | text-entity description | relation | The source of the news | author | The date of the news publication | comment |
