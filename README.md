@@ -3,8 +3,7 @@ This is the dataset for **FineFake : A Knowledge-Enriched Dataset for Fine-Grain
 
 # Getting Started
 Follow the instructions to download the dataset. You can download text data, metadata, image data and knowledge data.
-The dataset is divided into six topics and eight platforms: Politics, Entertainment, Business, Health, Society, Conflict. Snopes, Twitter, Reddit, CNN, Apnews, Cdc.gov, Nytimes, Washingtonpost
-Each domain corresponds to a pickle document named by it's affliated domain. The dataset can be downloaded [here](https://drive.google.com/drive/folders/1HOjhdaKLnioXmYtursQdRwVEdErZiWUf?usp=drive_link).
+The dataset is divided into six topics and eight platforms: Politics, Entertainment, Business, Health, Society, Conflict. Snopes, Twitter, Reddit, CNN, Apnews, Cdc.gov, Nytimes, Washingtonpos. The dataset and images can be downloaded [here](https://drive.google.com/drive/folders/1HOjhdaKLnioXmYtursQdRwVEdErZiWUf?usp=drive_link).
 
 ## DataFrame file
 The data is stored as pickle file, it can be opened to dataframe by following codes.
