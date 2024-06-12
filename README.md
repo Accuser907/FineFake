@@ -16,7 +16,14 @@ import pandas as pd
 with open(file_name,"rb") as f:
   data_df = pkl.load(f) # data_df is in dataframe 
 ```
-There are 13 columns in pickle file, each attribute and its corresponding meaning is shown in the table below.
+There are 13 columns in pickle file, each attribute and its corresponding meaning is shown in the table below:
 | text | image_path | entity_id | topic | label | fine-grained label | knowledge_embedding | description | relation | platform | author | date | comment |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | news body text | image_path(relative path) | text-entity wiki id | topic from six topics | label | fine-grained label | knowledge_embedding | text-entity description | relation | The source of the news | author | The date of the news publication | comment |
+
+## Labels
+For the binary label, "0" represents fake and "1" represents real.
+For the fine-grained label, each label and its corresponding meaning is shown in the table below:
+| 0 | 1 | 2 | 3 | 4 | 5 |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| real | text-image inconsistency | content-knowledge inconsistency | text-based fake | image-based fake | others |
