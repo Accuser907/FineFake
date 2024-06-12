@@ -1,6 +1,7 @@
 # FineFake
 This is the dataset for **FineFake : A Knowledge-Enriched Dataset for Fine-Grained Multi-Domain Fake News Detection**. The paper can be downloaded [here](https://doi.org/10.48550/arXiv.2404.01336). The main construction of FineFake is shown below.
-[construction.pdf](https://github.com/user-attachments/files/15798972/construction.pdf)
+![construction_00](https://github.com/Accuser907/FineFake/assets/61140633/dbf1af33-9cc8-4f1d-9208-6be46a88fe54)
+
 # Getting Started
 Follow the instructions to download the dataset. You can download text data, metadata, image data and knowledge data.
 The dataset is divided into six topics and eight platforms: Politics, Entertainment, Business, Health, Society, Conflict. Snopes, Twitter, Reddit, CNN, Apnews, Cdc.gov, Nytimes, Washingtonpos. The dataset and images can be downloaded [here](https://drive.google.com/file/d/1IwkI1Ppr24ICebKMqUY51csqOim56LkD/view?usp=sharing).
