@@ -1,5 +1,5 @@
 # FineFake
-This is the dataset for **FineFake : A Knowledge-Enriched Dataset for Fine-Grained Multi-Domain Fake News Detection**
+This is the dataset for **FineFake : A Knowledge-Enriched Dataset for Fine-Grained Multi-Domain Fake News Detection**. The paper can be downloaded [here](https://doi.org/10.48550/arXiv.2404.01336).
 
 # Getting Started
 Follow the instructions to download the dataset. You can download text data, metadata, image data and knowledge data.
