@@ -1,5 +1,5 @@
 # FineFake
-This is the dataset for **FineFake : A Knowledge-Enriched Dataset for Fine-Grained Multi-Domain Fake News Detection**. The paper can be downloaded [here](https://doi.org/10.48550/arXiv.2404.01336). The main construction of FineFake is shown below.
+This is the dataset for **FineFake : A Knowledge-Enriched Dataset for Fine-Grained Multi-Domain Fake News Detection**. The paper can be downloaded [here](https://doi.org/10.48550/arXiv.2404.01336). The main construction of FineFake is shown below. The code of construction for updating latest news will be released when the paper is accepted.
 ![construction_00](https://github.com/Accuser907/FineFake/assets/61140633/dbf1af33-9cc8-4f1d-9208-6be46a88fe54)
 
 # Getting Started
