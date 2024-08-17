@@ -27,3 +27,8 @@ For the fine-grained label, each label and its corresponding meaning is shown in
 | 0 | 1 | 2 | 3 | 4 | 5 |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | real | text-image inconsistency | content-knowledge inconsistency | text-based fake | image-based fake | others |
+
+## Guidelines
+- FineFake is designed to advance research in fake news detection and should not be used for any malicious or harmful purposes.  Users should refrain from using the dataset for generating or spreading misinformation, manipulating public opinion, or any other activity that could harm individuals, groups, or society at large.
+- It is the responsibility of users to ensure that their models and research outcomes are fair and unbiased. Any biases inherent in the dataset must be carefully addressed in your work. If biases are detected, they should be documented, and appropriate mitigation strategies should be applied.
+- The FineFake dataset contains data sourced from public domains, but it is essential to respect the privacy and anonymity of individuals. Any attempt to de-anonymize individuals or re-identify entities within the dataset is strictly prohibited. All users must ensure that their research upholds the principles of privacy protection.
