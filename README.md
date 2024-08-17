@@ -7,7 +7,7 @@ Follow the instructions to download the dataset. You can download text data, met
 The dataset is divided into six topics and eight platforms: Politics, Entertainment, Business, Health, Society, Conflict. Snopes, Twitter, Reddit, CNN, Apnews, Cdc.gov, Nytimes, Washingtonpos. The dataset and images can be downloaded [here](https://drive.google.com/file/d/1IwkI1Ppr24ICebKMqUY51csqOim56LkD/view?usp=sharing).
 
 ## DataFrame file
-The data is stored as pickle file, it can be opened to dataframe by following codes.
+The data is stored as pickle file, it can be opened to dataframe by following codes. Details can be found at demo.py.
 ```c
 pip install pickle
 pip install pandas
