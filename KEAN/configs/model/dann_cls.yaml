@@ -1,0 +1,24 @@
+_target_: 
+num_classes: 
+optimizer:
+  _target_: 
+  _partial_: 
+  lr: 
+  weight_decay: 
+
+scheduler:
+  _target_: 
+  _partial_: 
+  mode: 
+  factor: 
+  patience: 
+
+net:
+  _target_: 
+  domain_size : 
+  hidden_size: 
+  hidden_size_2 : 
+  num_classes: 
+
+alpha: 
+beta: 

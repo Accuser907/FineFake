@@ -1,0 +1,9 @@
+_target_: 
+data_dir_s: 
+data_dir_v: 
+data_dir_t: 
+batch_size: 
+num_workers: 
+pin_memory: 
+num_classes: 
+image_path : 
